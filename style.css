@@ -125,3 +125,4 @@ body { color: var(--ink); font-size: 17px; line-height: 1.65; }
 }
 
 .teams-id strong { color: #10213d; letter-spacing: .2px; }
+.hero-proof span.red.label { color: #ff0000; }
