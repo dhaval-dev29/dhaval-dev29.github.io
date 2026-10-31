@@ -1,83 +1,136 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dhaval Vaghela | Magento Developer</title>
-    <meta name="description" content="Dhaval Vaghela - Magento 2 Developer and E-commerce Consultant with 12+ years of experience.">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #f8fafc;
-            color: #1e293b;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            padding: 24px;
-        }
-
-        .container {
-            max-width: 750px;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 42px;
-            margin-bottom: 15px;
-        }
-
-        h2 {
-            color: #2563eb;
-            font-size: 22px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 17px;
-            line-height: 1.8;
-            color: #64748b;
-            margin-bottom: 25px;
-        }
-
-        a {
-            display: inline-block;
-            background: #2563eb;
-            color: white;
-            text-decoration: none;
-            padding: 13px 25px;
-            border-radius: 6px;
-        }
-
-        a:hover {
-            background: #1d4ed8;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Dhaval Vaghela is a Magento 2 Developer and E-commerce Consultant with 12+ years of experience building scalable e-commerce solutions, custom Magento modules and integrations.">
+  <meta property="og:title" content="Dhaval Vaghela | Magento 2 Developer & E-commerce Consultant">
+  <meta property="og:description" content="12+ years of Magento and e-commerce development experience. Custom modules, integrations, upgrades and performance optimization.">
+  <meta property="og:type" content="website">
+  <title>Dhaval Vaghela | Magento 2 Developer & E-commerce Consultant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Dhaval Vaghela home"><span class="brand-mark">DV</span><span>Dhaval Vaghela</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#services">Services</a>
+        <a href="#credentials">Certification</a>
+        <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
 
-    <div class="container">
-        <h1>Hi, I'm Dhaval Vaghela</h1>
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> Available for select projects & consulting</div>
+          <p class="overline">MAGENTO 2 DEVELOPER · E-COMMERCE CONSULTANT</p>
+          <h1>Building better<br><span>e-commerce</span><br>experiences.</h1>
+          <p class="hero-description">I'm Dhaval, a Magento 2 developer with <strong>12+ years of experience</strong> creating scalable e-commerce solutions, solving complex technical challenges, and improving the foundations that help online businesses grow.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:dhavalvagheladd@gmail.com?subject=Magento%20Development%20Enquiry">Discuss a project <span>↗</span></a>
+            <a class="text-link" href="#expertise">Explore my expertise <span>↓</span></a>
+          </div>
+          <div class="hero-proof">
+            <div><strong>12+</strong><span>Years of experience</span></div>
+            <div><strong>Adobe</strong><span>Certified Magento Developer</span></div>
+            <div><strong>Magento</strong><span>Development focus</span></div>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="visual-glow"></div>
+          <figure class="hero-image-card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=85"
+                 alt="Developer workspace with a laptop displaying code" loading="eager">
+            <figcaption><strong>Magento 2 Development</strong><span>Code · Commerce · Performance</span></figcaption>
+          </figure>
+          <div class="code-card">
+            <div class="code-top"><div class="window-dots"><i></i><i></i><i></i></div><span>ecommerce.solution.php</span><span class="code-status">●</span></div>
+            <div class="code-content">
+              <p><span class="line-no">01</span><span class="code-purple">class</span> <span class="code-blue">EcommerceSolution</span></p>
+              <p><span class="line-no">02</span>{</p>
+              <p><span class="line-no">03</span>&nbsp;&nbsp;<span class="code-purple">public function</span> build()</p>
+              <p><span class="line-no">04</span>&nbsp;&nbsp;{</p>
+              <p><span class="line-no">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">return</span> [</p>
+              <p><span class="line-no">06</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-yellow">'performance'</span> =&gt; <span class="code-green">true</span>,</p>
+              <p><span class="line-no">07</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-yellow">'scalability'</span> =&gt; <span class="code-green">true</span>,</p>
+              <p><span class="line-no">08</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-yellow">'quality'</span> =&gt; <span class="code-green">true</span>,</p>
+              <p><span class="line-no">09</span>&nbsp;&nbsp;&nbsp;&nbsp;];</p>
+              <p><span class="line-no">10</span>&nbsp;&nbsp;}</p>
+              <p><span class="line-no">11</span>}</p>
+            </div>
+            <div class="code-footer"><span>Magento 2 · PHP · Thoughtful engineering</span><span>100%</span></div>
+          </div>
+          <div class="floating-chip chip-top"><span class="chip-icon">✳</span><span><b>Custom development</b><small>Built around business needs</small></span></div>
+          <div class="floating-chip chip-bottom"><span class="chip-icon chip-blue">↗</span><span><b>Performance minded</b><small>Quality beyond launch</small></span></div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 / 05</span></div>
+    </section>
 
-        <h2>Magento 2 Developer & E-commerce Consultant</h2>
+    <section class="section about-section" id="about">
+      <div class="container two-column">
+        <div class="section-intro reveal"><p class="overline">01 — ABOUT ME</p><h2>Technical depth.<br><span>Business perspective.</span></h2></div>
+        <div class="about-copy reveal">
+          <p class="lead">I am a dedicated and detail-oriented Magento 2 Developer with more than a decade of experience building scalable, high-performance e-commerce solutions.</p>
+          <p>I specialize in custom module development, third-party integrations, Magento upgrades, and performance optimization. I enjoy solving complex problems and contributing to high-quality, client-focused web applications.</p>
+          <p>My approach combines practical engineering with an understanding of the wider e-commerce experience: reliable functionality, maintainable code, and thoughtful improvements that support business goals.</p>
+          <a class="text-link" href="mailto:dhavalvagheladd@gmail.com">Start a conversation <span>↗</span></a>
+        </div>
+      </div>
+    </section>
 
-        <p>
-            I have 12+ years of experience in Magento development,
-            custom module development, performance optimization,
-            technical SEO, and e-commerce solutions.
-        </p>
+    <section class="section expertise-section" id="expertise">
+      <div class="container">
+        <div class="section-heading reveal"><div><p class="overline">02 — TECHNICAL EXPERTISE</p><h2>The tools behind<br><span>the solutions.</span></h2></div><p class="heading-note">A focused toolkit for building, extending, integrating, and maintaining e-commerce applications.</p></div>
+        <div class="skills-grid reveal">
+          <article class="skill-card skill-featured"><div class="skill-number">01</div><div class="skill-icon">M</div><h3>Magento & Adobe Commerce</h3><p>Platform customization, module development, upgrades, and e-commerce functionality.</p><div class="tags"><span>Magento 2</span><span>Adobe Commerce</span></div></article>
+          <article class="skill-card"><div class="skill-number">02</div><div class="skill-icon">&lt;/&gt;</div><h3>Backend development</h3><p>Building application logic and custom functionality.</p><div class="tags"><span>PHP</span><span>MySQL</span></div></article>
+          <article class="skill-card"><div class="skill-number">03</div><div class="skill-icon">✳</div><h3>Frontend development</h3><p>Responsive interfaces and interactive storefront experiences.</p><div class="tags"><span>JavaScript</span><span>jQuery</span><span>HTML</span><span>CSS</span></div></article>
+          <article class="skill-card"><div class="skill-number">04</div><div class="skill-icon">⇄</div><h3>Integrations & workflow</h3><p>Connecting systems and supporting collaborative development workflows.</p><div class="tags"><span>REST APIs</span><span>Git</span></div></article>
+        </div>
+      </div>
+    </section>
 
-        <a href="mailto:YOUR_EMAIL@gmail.com">
-            Contact Me
-        </a>
-    </div>
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading reveal"><div><p class="overline">03 — HOW I CAN HELP</p><h2>Practical solutions for<br><span>e-commerce teams.</span></h2></div><p class="heading-note">From a focused development task to ongoing technical improvement, the goal is to solve the right problem well.</p></div>
+        <div class="services-list">
+          <article class="service-row reveal"><span class="service-index">01</span><div><h3>Custom Magento development</h3><p>Custom modules, storefront functionality, admin workflows, and platform enhancements.</p></div><span class="service-arrow">↗</span></article>
+          <article class="service-row reveal"><span class="service-index">02</span><div><h3>Third-party integrations</h3><p>API-based integrations and connections between Magento and external business systems.</p></div><span class="service-arrow">↗</span></article>
+          <article class="service-row reveal"><span class="service-index">03</span><div><h3>Magento upgrades & maintenance</h3><p>Upgrade planning, compatibility reviews, troubleshooting, and ongoing platform care.</p></div><span class="service-arrow">↗</span></article>
+          <article class="service-row reveal"><span class="service-index">04</span><div><h3>Performance optimization</h3><p>Investigating storefront performance and implementing measured technical improvements.</p></div><span class="service-arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
 
+    <section class="section credentials-section" id="credentials">
+      <div class="container credential-panel reveal">
+        <div class="credential-symbol">A</div>
+        <div class="credential-copy"><p class="overline">04 — PROFESSIONAL CREDENTIAL</p><h2>Adobe Certified<br><span>Magento Developer</span></h2><p>Professional certification validating Magento development knowledge and platform expertise.</p></div>
+        <a class="button button-light" href="https://certification.adobe.com/credential/verify/595ca942-1505-42d1-bce5-1c9085a488ea" target="_blank" rel="noopener noreferrer">Verify credential <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="reveal"><p class="overline">05 — GET IN TOUCH</p><h2>Have a Magento<br><span>challenge in mind?</span></h2><p class="contact-intro">If you're looking for experienced Magento development support or want to discuss an e-commerce improvement, I'd be glad to hear about it.</p></div>
+        <div class="contact-card reveal"><span class="contact-label">EMAIL ME</span><a class="email-link" href="mailto:dhavalvagheladd@gmail.com">dhavalvagheladd@gmail.com <span>↗</span></a><div class="contact-divider"></div><span class="contact-label">MICROSOFT TEAMS</span><p class="teams-id"><strong>dhaval.vaghela29</strong></p><div class="contact-divider"></div><span class="contact-label">BASED IN</span><p>India · Working with teams worldwide</p><a class="button button-primary contact-button" href="mailto:dhavalvagheladd@gmail.com?subject=Let's%20discuss%20a%20Magento%20project">Send an enquiry <span>↗</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">DV</span><span>Dhaval Vaghela</span></a><span>Magento 2 Developer & E-commerce Consultant</span><span>© <span id="year"></span> Dhaval Vaghela</span></div></footer>
+  <script src="script.js"></script>
 </body>
 </html>
