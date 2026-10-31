@@ -49,7 +49,7 @@ body { color: var(--ink); font-size: 17px; line-height: 1.65; }
 .floating-chip b { color: #10213d; font-size: 13px; }
 .floating-chip small { color: #23436f; font-size: 12px; }
 .chip-top { top: 28px; right: -10px; }
-.chip-bottom { bottom: 28px; left: -12px; }
+.chip-bottom { bottom: -30px; left: -12px; }
 .hero-bottom { color: #23436f; font-size: 12px; margin-top: 22px; }
 .two-column { gap: 64px; }
 .section h2 { font-size: clamp(36px, 4.2vw, 52px); }
